@@ -1,0 +1,181 @@
+@font-face {
+    font-family: Roboto Regular ;
+    src: url(https://fonts.googleapis.com/css2?family=Roboto&display=swap);
+}
+
+@font-face {
+    font-family: Lora Regular;
+    src: url(https://fonts.googleapis.com/css2?family=Lora&display=swap);
+}
+
+@font-face {
+    font-family: Lora Bold;
+    src: url(https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap);
+}
+
+.menu-nav {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.menu-item {
+    color: black;
+    margin: 10px;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-family: Roboto Regular;
+    border: 3px solid white;
+    transition: .4s;
+}
+
+.menu-item:hover {
+    border: 3px solid yellow;
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+    font-family: Roboto Regular;
+}
+
+.description {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.portrait {
+    width: 300px;
+    padding: 10px;
+    margin-right: 35px;
+    border: 5px solid white;
+    transition: .4s
+}
+
+.portrait:hover {
+    border: 5px solid yellow;
+}
+
+h1 {
+    font-family: Lora Bold;
+    border-bottom: 5px solid yellow;
+    padding-bottom: 5px;
+}
+
+#about_me p {
+    line-height: 1.5;
+}
+
+h2 {
+    font-family: Lora Bold;
+    border-left: 25px solid yellow;
+    flex-grow: 1;
+    padding-left: 10px;
+    transition: .4s;
+}
+
+h2:hover {
+    border-left: 35px solid yellow;
+}
+
+.contacts-item {
+    display: flex;
+    align-items: center;
+}
+
+.contacts-item a {
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid yellow;
+    transition: .3s;
+}
+
+.contacts-item a:hover {
+    color: yellow;
+    border-bottom: 2px solid black;
+}
+
+.contacts-icon {
+    margin-right: 20px;
+}
+
+.hobby-collection {
+    display: flex;
+    justify-content: space-around;
+}
+
+.hobby-collection-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hobby-collection-icon {
+    width: 100px;
+    height: 100px;
+    padding-bottom: 10px;
+    transform: scale(1);
+    transition: .3s;
+}
+
+.hobby-collection-icon:hover {
+    transform: scale(1.2);
+}
+
+.skills-item {
+    margin: 0 15px 0 35px;
+    padding-right: 15px;
+    border-right: 0px solid yellow;
+    transition: 1s;
+}
+
+#skills-item1 {
+    border-right: 450px solid yellow;
+}
+
+#skills-item2 {
+    border-right: 400px solid yellow;
+}
+
+#skills-item3 {
+    border-right: 150px solid yellow;
+}
+
+/*#skills-item1:hover {
+    border-right: 450px solid yellow;
+}
+
+#skills-item2:hover {
+    border-right: 400px solid yellow;
+}
+
+#skills-item3:hover {
+    border-right: 150px solid yellow;
+}*/
+
+#education li {
+    line-height: 1.5;
+}
+
+#realization li {
+    line-height: 1.5;
+}
+
+.footer {
+    text-align: center;
+    font-family: Roboto Regular;
+    padding: 10px;
+    border-top: 2px solid yellow;
+}
+
+.footer p {
+    transition: .4s;
+}
+
+.footer p:hover {
+    transform: scale(1.1);
+}
